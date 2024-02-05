@@ -17,3 +17,14 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+button {
+  transition-property: transform;
+  transition-delay: 0ms;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+button:hover {
+  transform: scale(1.2);
+}

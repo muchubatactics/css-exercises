@@ -29,4 +29,24 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+.dropdown-menu.visible {
+  animation-name: hoho;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  transform-origin: top;
 
+}
+
+@keyframes hoho {
+  0% {
+    transform: scaleY(0);
+  }
+
+  70% {
+    transform: scaleY(1.2);
+  }
+  
+  100% {
+    transform: scaleY(1);
+  }
+}
